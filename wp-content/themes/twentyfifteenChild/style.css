@@ -1,0 +1,13 @@
+/*
+Theme name: [20_15 ChildTheme]
+Description: Child theme based on twentyfifteen
+Author: Santiago Castro
+Version: 1.0
+Template: twentyfifteen
+*/
+
+@import url('../twentyfifteen/style.css');
+
+body{
+  font-style: italic;
+}
