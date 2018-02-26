@@ -1,15 +1,17 @@
 /*
-Theme name: [Y]
+Theme name: ThemeChild[2012]
 Description: Child theme based on twentytwelve
-Author: Vision UX
+Author: Santiago Castro
 Version: 1.0
 Template: twentytwelve
 */
 
 @import url('../twentytwelve/style.css');
 
-body{
-  color: rgb(72, 72, 73);
+body {
+	font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: yellow;
 }
 
 .widget-area .widget a{
@@ -23,5 +25,6 @@ body{
 
 .site-header-home{
   color: brown;
-  background-color: rgb(23, 170, 114);
+  background-color: rgb(38, 23, 170);
 }
+
