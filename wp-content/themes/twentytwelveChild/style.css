@@ -8,23 +8,43 @@ Template: twentytwelve
 
 @import url('../twentytwelve/style.css');
 
-body {
-	font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  color: yellow;
-}
-
-.widget-area .widget a{
-    color: rgb(97, 195, 240);
-}
-
-.entry-title{
-  font-weight: 900;
-  font-size: 4em;
+body.custom-font-enabled {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .site-header-home{
-  color: brown;
-  background-color: rgb(38, 23, 170);
+text-align: center !important;
+color: #ffffff;
 }
+
+.site-header h1 a, .site-header h2 a {
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+.site-header h1 a:hover, .site-header h2 a:hover {
+    color: #a5a5a5;
+}
+
+h1,h2,h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+#secondary{
+  padding: 10px;
+  background-color: #f3f3f2;
+}
+
+#page{
+  background-color: #494949;
+  color: #ffffff;
+}
+
+#menu-homepage {
+  color: #ffffff;
+  font-weight: 900;
+}
+
 

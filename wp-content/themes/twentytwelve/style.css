@@ -486,12 +486,12 @@ html {
 body {
 	font-size: 14px;
 	font-size: 1rem;
-	font-family: 'roboto', Arial, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #444;
 }
 body.custom-font-enabled {
-	font-family: 'roboto', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 a {
 	outline: none;
