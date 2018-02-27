@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: single_postPage_nosidebar.php
+ * Template Name: NoCommentsWithSidebar.php
  * The template that remove comments out of pages.
  *
  * @package WordPress
@@ -30,5 +30,5 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php //get_sidebar(); ?><!--Here I removed the sidebar-->
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
