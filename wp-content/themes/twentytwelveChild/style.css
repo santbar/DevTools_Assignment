@@ -50,3 +50,8 @@ h1,h2,h3{
 strong{
   font-size: 1.5rem !important;
 }
+
+.menu-homepage-container{
+  background-color: #ecebeb !important;
+  padding: 0 10px;
+}
